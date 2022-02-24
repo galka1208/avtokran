@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src : url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src : url("../fonts/MYRIADPRO-BOLD.OTF");
+}
+@font-face {
+    font-family: "MyriadPro-Semibold";
+    src : url("../fonts/MYRIADPRO-SEMIBOLD.OTF");
+}
+body {
+    font-family: "MyriadPro-Regular";
+}
+.header {
+    background: url("../img/avtokran.png") center no-repeat;
+    background-size: auto 100%;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    .text {
+        font-family: "MyriadPro-Regular";
+        font-size: 30px;
+        position: absolute;
+        height: 100%;
+        p {
+            background: rgba(0, 0, 0, 0.555);
+            padding: 0 5px;
+            color: white;
+        }
+        
+    }
+    .mashinki {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.top-bar {
+    background: #000000;
+    position: relative;
+    .top-bar-content {
+        position: relative;
+    }
+    .logo {
+        position: absolute;
+        z-index: 10;
+        
+        .figura {
+            margin-left: 50px;
+        }
+    }
+    
+    .phone {
+        background: #e77224c4;
+        width: 286px;
+        height: 74px;
+        text-align: right;
+        font-family: "MyriadPro-Bold";
+        position: absolute;
+        top: 100%;
+        z-index: 3;
+        right: 0;
+        padding-right: 15px;
+        color: #010101;
+        a, p {
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            font-size: 24px;
+            padding-bottom: 5px;
+        }
+        a {
+            font-size: 30px;
+            line-height: 20px;
+            color: #010101;
+            text-decoration: none;
+            &:hover {
+                color: #010101;
+            }
+        }
+    }
+}
+
+.menu {
+    text-align: center;
+    padding: 13.5px 0;
+    font-family: "MyriadPro-Bold";
+
+    a {
+        margin-right: 40px;
+        font-size: 22px;
+        color: white;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.polosochka {
+    background-color: #ec7728;
+    width: 100%;
+    height: 6px;
+}
+.catalog {
+    padding-top: 30px;
+    background-color: #f8f8f8;
+    padding-bottom: 83px;
+    h3 {
+        font-family: "MyriadPro-Semibold";
+        font-size: 30px;
+        text-align: center;
+    }
+    button {
+        width: 340px;
+        height: 50px;
+        margin-top: 70px;
+        border-radius: 40px;
+        font-family: "MyriadPro-Semibold";
+        font-size: 28px;
+        border: none;
+        background-color: #5b98ef;
+        
+    }
+}
+.polosochka1 {
+    background-color: #ec7728;
+    height: 6px;
+    width: 166px;
+    
+}
+.catalog-text {
+    padding-top: 40px;
+    background: #ececec;
+    padding-bottom: 100px;
+    background-image: -moz-linear-gradient( 90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);   
+    h3 {
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-family: "MyriadPro-Semibold";
+    }
+    .text-wrapper {
+        font-family: "Calibri";
+        max-width: 890px;
+        padding-top: 50px;
+    }
+}
+.pochemu {
+    padding-top: 45px;
+    background-image: -moz-linear-gradient( 90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(217,217,217) 0%, rgb(255,255,255) 100%);
+}
+h3 {
+    font-size: 30px;
+    font-family: "MyriadPro-Semibold";
+}
+.container2 {
+    padding-top: 50px;
+    .img {
+        padding-bottom: 20px;
+    }
+    .zagolovok {
+        margin-top: 30px;
+    }
+}
+.kakrabotaem {
+    background: #000000;
+    color: white;
+    padding-top: 50px;
+    h3 {
+    font-size: 30px;
+    font-family: "MyriadPro-Semibold"
+    }
+    p {
+        margin-top: 38px;
+        font-family: "MyriadPro-Semibold";
+        font-size: 18px;
+    }
+    .punkt {
+        margin-top: 30px;
+    }
+}
+.carta {
+    height: 450px;
+}
+.footer {
+    background: #000000;
+    .menu-footer {
+        text-align: center;
+        a {
+            margin-right: 30px;
+            font-size: 24px;
+            font-family: "MyriadPro-Semibold";
+            padding: 5px 0 8px 0;
+            color: white;
+            margin-bottom: 0;
+        }
+    }
+}
+.footer2 {
+    line-height: 30px;
+    padding: 10px 0 7px;
+    .right {
+        text-align: right;
+    }
+    p {
+        font-size: 18px;
+        margin: 0;
+        text-decoration: none;
+        font-family: "MyriadPro-Regular"
+        
+    }
+    a {
+        font-size: 35px;
+        color: black;
+        font-family: "MyriadPro-Semibold";
+        &.tel {
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .logo {
+        top: 55px;
+    }
+    .menu {
+        a {
+            font-size: 19px;
+        }
+    }
+    .trucks {
+        img {
+            &:last-child {
+                display: none;
+            }
+        }
+    }
+    .polosochka-wrapper {
+        width: 100%;
+        .polosochka1 {
+            width: 100%;
+        }
+    }
+    .pochemu-content {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        top: 84px;
+        max-width: 100px;
+    }
+    .trucks {
+        img {
+            &:nth-of-type(2) {
+                display: none;
+            }
+        }
+    }
+    .footer2 {
+        text-align: center;
+        p {
+            text-align: center;
+            a {
+                font-size: 26px;
+            }
+        }
+    }
+}
